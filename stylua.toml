@@ -1,0 +1,36 @@
+# stylua.toml
+
+# --- General Formatting Options ---
+# Indentation style: 'spaces' or 'tabs'
+indent_type = "Spaces" # Umumnya direkomendasikan: spaces
+
+# Number of spaces per indentation level
+indent_width = 4 # Standar 2 atau 4, 4 lebih umum untuk keterbacaan
+
+# --- Line Length ---
+# Maximum line length before wrapping.
+# Terlalu panjang bisa menyulitkan, terlalu pendek bisa fragmentasi.
+# 80 atau 100 adalah nilai umum.
+# column_width = 80
+
+# Whether to wrap long lines
+call_parentheses = "Always" # "Always" is common for clarity
+
+# --- Table Formatting ---
+# How to format tables with multiple entries.
+# "Always" ensures multi-line tables are consistently formatted.
+# table_brace_style = "Always" 
+
+# --- Semicolons ---
+# Add or remove semicolons at the end of statements.
+# Lua tidak memerlukan titik koma, jadi "None" adalah umum.
+quote_style = "AutoPreferDouble" # "Double" or "Single". Double quotes are often preferred.
+
+# --- Trailing Commas ---
+# Whether to include trailing commas in tables and argument lists.
+# "Always" is common for easier diffs and reordering.
+# trailing_comma = "Always" 
+
+# --- Nil Formatting ---
+# How to format nil. "Nil" means `nil`, "Null" means `nil`.
+# use_nil = "Nil" # Default, leave as `nil`
