@@ -306,6 +306,8 @@ if current_dir:find("/novel", 1, true) then
 elseif current_dir:find("/lang", 1, true) then
     vim.o.background = "light"
     vim.cmd("colorscheme onehalflight")
+elseif current_dir:find("/python", 1, true) then
+    vim.cmd("colorscheme materialbox")
 else
     vim.cmd("colorscheme ayu")
 end
